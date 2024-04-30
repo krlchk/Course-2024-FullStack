@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeworkPage</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <style>
+        .head-height {
+            height: 70px;
+        }
+
+        .cust-pad {
+            padding-left: 10vh;
+            padding-top: 2vh;
+        }
+
+        .cust-text {
+            font-family: "Gill Sans", sans-serif;
+            font-size: 20px;
+        }
+
+        .data {
+            font-family: "Gill Sans", sans-serif;
+            font-size: 30px;
+            margin-top: 4vh;
+        }
+
+        .group {
+            font-family: "Gill Sans", sans-serif;
+            color: gray;
+            margin-top: 4vh;
+            padding-left: 5vh;
+            font-weight: bold;
+        }
+
+        .two {
+            font-family: "Gill Sans", sans-serif;
+            color: black;
+            margin-top: 2vh;
+            font-size: 20px;
+        }
+
+        .ez {
+            width: 20vh;
+            height: 4vh;
+        }
+
+        .show {
+            margin-top: 2vh;
+        }
+
+        #but {
+            border: none;
+            border-radius: 5px;
+            background-color: #17a2b8;
+            height: 4vh;
+            color: white;
+        }
+
+        .sec-group {
+            background-color: #17a2b8;
+            padding-left: 6vh;
+            margin-top: 4vh;
+            height: 6vh;
+            color: white;
+            padding-top: 1.5vh;
+            font-weight: bold;
+        }
+
+        .th-group {
+            padding-left: 6vh;
+            margin-top: 4vh;
+            height: 6vh;
+            border-bottom: 1px solid black;
+        }
+
+        .em {
+            width: 7vh;
+            height: 4vh;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-12 bg-info text-white head-height d-lg-inline-block">
+                <div class="d-flex align-items-center">
+                    <div class="cust-text"><i class="fa-solid fa-graduation-cap" style="margin-left: 2vh; margin-top: 2vh; size: 20px;"></i></div>
+                    <div class="cust-text cust-pad text-black-50">Attendance</div>
+                    <div class="cust-text cust-pad text-black-50">Schedule</div>
+                    <div class="cust-text cust-pad ">Homework</div>
+                    <div><i class="fa-solid fa-graduation-cap" style="margin-left: 130vh; margin-top: 2vh; size: 20px;"></i></div>
+                    <div><i class="fa-solid fa-graduation-cap" style="margin-left: 2vh; margin-top: 2vh; size: 20px;"></i></div>
+                    <div><i class="fa-solid fa-graduation-cap" style="margin-left: 2vh; margin-top: 2vh; size: 20px;"></i></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="row">
+        <div class="col-12 col-md-12 col-lg-12 offset-5 text-dark ">
+            <div class="data">HOMEWORK</div>
+        </div>
+    </div>
+    <div class="row group">
+        <div class="col-2">Group
+            <div class="two">
+                <select class="ez" name="ez">
+                    <option value="m">ABC-1234</option>
+                </select>
+            </div>
+        </div>
+        <div class="col-2">Subject
+            <div class="two">
+                <select class="ez" name="ez">
+                    <option value="m">HTML&SCC</option>
+                </select>
+            </div>
+        </div>
+        <div class="col-2 text-white show">Subject
+            <form action=""><button type="button" id="but">Show</button></form>
+        </div>
+    </div>
+    <div class="row sec-group">
+        <div class="col-7 offset-1">Name</div>
+        <div class="col-1">18.04</div>
+        <div class="col-1">14.04</div>
+        <div class="col-1">12.04</div>
+        <div class="col-1">10.04</div>
+    </div>
+    <div class="row th-group">
+        <div class="col-7 offset-1">
+            <P>1 Ashton Hickman</P>
+        </div>
+        <div class="col-1">
+            <i class="fa-solid fa-file"></i>
+            <select class="em" name="em">
+                <option value="m">-</option>
+            </select>
+        </div>
+        <div class="col-1">
+            <i class="fa-solid fa-minus"></i>
+        </div>
+        <div class="col-1">
+            <i class="fa-solid fa-file"></i>
+            <select class="em" name="em">
+                <option value="m">10</option>
+            </select>
+        </div>
+        <div class="col-1">
+            <i class="fa-solid fa-minus"></i>
+        </div>
+    </div>
+    <div class="row th-group">
+        <div class="col-7 offset-1">
+            <P>2 Mischa Roberson</P>
+        </div>
+        <div class="col-1">
+            <i class="fa-solid fa-minus"></i>
+        </div>
+        <div class="col-1">
+            <i class="fa-solid fa-link"></i>
+            <select class="em" name="em">
+                <option value="m">-</option>
+            </select>
+        </div>
+        <div class="col-1">
+            <i class="fa-solid fa-minus"></i>
+        </div>
+        <div class="col-1">
+            <i class="fa-solid fa-link"></i>
+            <select class="em" name="em">
+                <option value="m">9</option>
+            </select>
+        </div>
+    </div>
+    <div class="row th-group">
+        <div class="col-7 offset-1">
+            <P>3 Jaydon Metcalfe</P>
+        </div>
+        <div class="col-1">
+            <i class="fa-solid fa-minus"></i>
+        </div>
+        <div class="col-1">
+            <i class="fa-solid fa-minus"></i>
+        </div>
+        <div class="col-1">
+            <i class="fa-solid fa-minus"></i>
+        </div>
+        <div class="col-1">
+            <i class="fa-solid fa-minus"></i>
+        </div>
+    </div>
+    <div class="row th-group">
+        <div class="col-7 offset-1">
+            <P>4 Gary Jacobson</P>
+        </div>
+        <div class="col-1">
+            <i class="fa-solid fa-minus"></i>
+        </div>
+        <div class="col-1">
+            <i class="fa-solid fa-minus"></i>
+        </div>
+        <div class="col-1">
+            <i class="fa-solid fa-link"></i>
+            <select class="em" name="em">
+                <option value="m">11</option>
+            </select>
+        </div>
+        <div class="col-1">
+            <i class="fa-solid fa-file"></i>
+            <select class="em" name="em">
+                <option value="m">10</option>
+            </select>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/6bb88b9cc3.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
