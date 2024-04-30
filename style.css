@@ -1,0 +1,144 @@
+body {
+    overflow-x: hidden;
+}
+/* HEADER */
+.head-height {
+    height: 70px;
+}
+
+.cust-pad {
+    padding-left: 10vh;
+    padding-top: 2vh;
+}
+
+.cust-text {
+    font-family: "Gill Sans", sans-serif;
+    font-size: 20px;
+}
+
+/* MAIN */
+.data {
+    font-family: "Gill Sans", sans-serif;
+    font-size: 30px;
+    margin-top: 4vh;
+}
+
+.les {
+    font-family: "Gill Sans", sans-serif;
+    font-size: 20px;
+    margin-top: 4vh;
+    padding: 2vh;
+    border-bottom: 1px solid black;
+}
+
+.leso {
+    border-bottom: 1px solid black;
+}
+
+.lesson {
+    padding-left: 5vh;
+}
+
+.les:hover {
+    border: 1px solid black;
+    border-radius: 10px;
+    border-bottom: none;
+}
+.group{
+    font-family: "Gill Sans", sans-serif;
+    color: gray;
+    margin-top: 4vh;
+    padding-left: 5vh;
+    font-weight: bold;
+}
+.two{
+    font-family: "Gill Sans", sans-serif;
+    color: black;
+    font-weight: 400;
+    margin-top: 2vh;
+    font-size: 20px;
+}
+#inp{
+    margin-top: 2vh;
+    width: 45vh;
+    height: 3.5vh;
+}
+#but{
+    
+    font-family: "Gill Sans", sans-serif;
+    margin-top: 2vh;
+    width: 15vh;
+    background-color: #17a2b8;
+    border: #17a2b8;
+    border-radius: 5px;
+    height: 3.5vh;
+    color: white;
+}
+.sec-group{
+    background-color: #17a2b8;
+    padding-left: 6vh;
+    margin-top: 4vh;
+    height: 6vh;
+    color: white;
+    padding-top: 1.5vh;
+    font-weight: bold;
+}
+.th-group{
+    padding-left: 6vh;
+    margin-top: 4vh;
+    height: 6vh;
+    border-bottom: 1px solid black;
+
+}
+input[type="checkbox"] {
+    display: none;
+}
+
+.checkbox-custom {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.checkbox1 + label {
+    border: 1px solid green;
+}
+
+.checkbox2 + label {
+    border: 1px solid yellow;
+}
+
+.checkbox3 + label {
+    border: 1px solid red;
+}
+
+.checkbox1:checked + label{
+    background-color: green;
+}
+.checkbox2:checked + label{
+    background-color: yellow;
+}
+.checkbox3:checked + label {
+    background-color: red;
+}
+.ez{
+    width: 10vh;
+}
+.modal {
+    z-index: 5;
+    position: absolute;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    z-index: 6;
+    height: 30vh;
+    background-color: white;
+    position: relative;
+}
